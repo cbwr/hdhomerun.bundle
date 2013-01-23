@@ -1,0 +1,28 @@
+[
+    {
+        "id": "deviceId",
+        "type": "text",
+        "label": "Device ID (see bottom of unit)",
+        "default": "",
+    },
+    {
+        "id": "tunerId",
+        "type": "enum",
+        "label": "Default Tuner ID",
+        "default": "0",
+        "values": ["0", "1"],
+    },
+    {
+        "id": "country",
+        "type": "enum",
+        "label": "Country",
+        "default": "United States (US)",
+        "values": ["United States (US)", "Other not supported (yet)"],
+    },
+    {
+        "id": "postalCode",
+        "type": "text",
+        "label": "Postal Code",
+        "default": "",
+    },
+]
